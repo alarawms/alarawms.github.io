@@ -203,7 +203,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
+      text:
       Please reach me on the forms below. الرجاء التواصل باستخدام المعلومات ادناه
       # Contact (add or remove contact options as necessary)
       email: m@malarawi.sa
