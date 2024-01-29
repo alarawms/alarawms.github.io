@@ -10,7 +10,7 @@ baseURL: 'https://alarawms.github.io' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en,ar
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
