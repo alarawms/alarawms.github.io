@@ -24,78 +24,78 @@ sections:
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: Jan 2007
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Assistant scientific researcher
+          company: KACST
+          company_url: 'http://www.kacst.edu.sa'
+          company_logo: kacst-gc
+          location: Riyadh
+          date_start: '2007-05-01'
+          date_end: '2009-7-1'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Experimental molecular biology projects executions.
+              * Lab management and operation.
+              * Bioinformatics analysis, teaching. 
+        - title: Medical-Tech II
+          company: KAIMRC
+          company_url: 'https://kaimrc.med.sa'
+          company_logo: kaimrc-gc
+          location: Riyadh
+          date_start: '2009-9-01'
+          date_end: '2010-9-30'
+          description: Trained new staff on research techniques in molecular biology.
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
+      ## - block: accomplishments
+      #    content:
+      #      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      #      title: 'Accomplish&shy;ments'
+      #      subtitle:
+      #      # Date format: https://docs.hugoblox.com/customization/#date-format
+      #      date_format: Jan 2006
+      #      # Accomplishments.
+      #      #   Add/remove as many `item` blocks below as you like.
+      #      #   `title`, `organization`, and `date_start` are the required parameters.
+      #      #   Leave other parameters empty if not required.
+      #      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#      items:
+#        - certificate_url: https://www.coursera.org
+#          date_end: ''
+#          date_start: '2021-01-25'
+#          description: ''
+#          icon: coursera
+#          organization: Coursera
+#          organization_url: https://www.coursera.org
+#          title: Neural Networks and Deep Learning
+#          url: ''
+#        - certificate_url: https://www.edx.org
+#          date_end: ''
+#          date_start: '2021-01-01'
+#          description: Formulated informed blockchain models, hypotheses, and use cases.
+#          icon: edx
+#          organization: edX
+#          organization_url: https://www.edx.org
+#          title: Blockchain Fundamentals
+#          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#        - certificate_url: https://www.datacamp.com
+#          date_end: '2020-12-21'
+#          date_start: '2020-07-01'
+#          description: ''
+#          icon: datacamp
+#          organization: DataCamp
+#          organization_url: https://www.datacamp.com
+#          title: 'Object-Oriented Programming in R'
+      #          url: ''
+      #    design:
+      #      columns: '2'
   - block: collection
     id: posts
     content:
@@ -204,35 +204,11 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      Please reach me on the forms below. الرجاء التواصل باستخدام المعلومات ادناه
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: m@malarawi.sa
       appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
         - icon: video
           icon_pack: fas
           name: Zoom Me
@@ -246,7 +222,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '2'
 ---
