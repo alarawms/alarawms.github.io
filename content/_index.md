@@ -234,13 +234,8 @@ sections:
     content:
       title: Contact
       subtitle:
-<<<<<<< HEAD
-      text:
-      Please reach me on the forms below. الرجاء التواصل باستخدام المعلومات ادناه
-=======
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
->>>>>>> 9acb58b (modifies author)
       # Contact (add or remove contact options as necessary)
       email: test@example.org
       phone: 888 888 88 88
