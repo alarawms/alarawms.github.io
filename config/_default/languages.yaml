@@ -9,7 +9,7 @@ en:
   contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-zh:
+ar:
  languageCode: ar-SA
  contentDir: content/ar
  title: محمد العروي
